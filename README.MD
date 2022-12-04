@@ -1,4 +1,5 @@
 <h1><b>Fsociety ToolKit</h1><b>
+<h2><b>Author :</b> Sumalya Chatterjee</h2>
 <h2>Fsociety Is A Penetration Testing Toolkit Used In Mr. Robot Hacking Web Series. This show closely directed the real world hacking scenarioes. Although this whole tool almost contains my scripts on ethical hacking. </h2>
 <img src='https://static.wikia.nocookie.net/villains/images/f/f4/Fsociety.jpg/revision/latest/scale-to-width-down/185?cb=20180102213220'>
 
