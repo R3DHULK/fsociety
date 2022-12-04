@@ -430,8 +430,8 @@ try:
 			webbrowser.open_new_tab(url)  
 			os.system("clear")
 		if select=='98':
-			os.system("chmod +x update.sh")
-			os.system("./update.sh")
+			os.system("chmod +x tools/update.sh")
+			os.system("./tools/update.sh")
 		if select =='99':
 			os.system("clear")
 			slowprint("\033[95m *Background*")
