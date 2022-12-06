@@ -81,6 +81,9 @@ git clone https://github.com/R3DHULK/fsociety
 # Change Directory
 cd fsociety
 
+# Install Requirements
+python3 -m pip install -r requirements.txt
+
 # Run Command With Sudo Privileges
 sudo python fsociety.py
 
