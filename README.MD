@@ -93,6 +93,9 @@ sudo python fsociety.py
 <h1><b>💀💀💀 Run This Tool With Sudo Privileges 💀💀💀</h1></b>
 <h2><b><i>-----Or Some Inbuilt Tool Can't Run Properly-----</i></b></h2>
 
+# 
+<h2><b>🔴 GUI Version Is For Desktop Users, Termux Doesn't Support GUI [It's Not An Error] 🔴</h2></b>
+
 #
 <h3><b>🎟️ You Want New Tools? Or Get Any Bugs? 🪲 </h3></b>
 <h3><b>🎫 Feel Free To Start <a href='https://github.com/R3DHULK/fsociety/issues'>Issue. 🎫</a>
