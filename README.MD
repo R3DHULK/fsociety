@@ -12,7 +12,7 @@
 #
 <h2><b><i>Pre-Booting Screen :</h2></b></i>
 
-![Alt text](screenshots/pre-booting-screen%20.png)
+![Alt text](screenshots/pre-booting-screen.png)
 #
 <h2><b><i>Booting Screen :</h2></b></i>
 
