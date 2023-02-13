@@ -10,7 +10,7 @@ print(r'''
  |_|  |_/_/ \_\___|   \___|_||_/_/ \_\_|\_|\___|___|_|_\
                                                          ''' )
 try:
-	interface = input("\033[92m [*] Please sepcify the interface: ")
+	interface = input("\033[92m [*] Please specify the interface: ")
 	new_mac = input("\033[92m [*] Please specify new mac: ")
 
 	print(" [!] Changing MAC ADDRESS for " + interface + " to " + new_mac )
