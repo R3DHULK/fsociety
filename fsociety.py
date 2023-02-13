@@ -29,13 +29,15 @@ try:
 			sys.stdout.flush()
 			time.sleep(10 / 1000)
 	# Booting Screen ("You Can Delete This For Your Term")
+	slowprint("[*] Booting..... ")
+	time.sleep(0.4)
 	slowprint("\033[91m[*] Don't Misuse Your Power")
 	slowprint("\033[97m[*] Humans Are Most Vulnerable")
 	time.sleep(0.5)
 	slowprint("\033[91m[*] Improve, Don't Prove")
 	time.sleep(0.4)
 	slowprint("\033[92m[*] Superpower Needs To Be Practiced")
-	print("\033[98m[*] Secuirity Is Just An Illution")
+	print("\033[98m[*] Secuirity Is Just An Illusion")
 	time.sleep(0.5)
 	slowprint("\033[91m[*] With Some Great Power Comes Great Responsibility")
 	slowprint("\033[92m[*] Be An Exception, Be An Example")
@@ -107,7 +109,7 @@ try:
 		[28] SMS BOMBING
 		[29] Phone Number Info Gather
 		[30] XSS Finder
-		[31] SQLI Flaw Finder
+		[31] SQLI Finder
 		[32] Shodan 
 		[33] System Information
 		[34] Netdiscover
@@ -123,9 +125,16 @@ try:
 		[44] Social Media Video Views Automation
 		[45] Hulk's Search Engine
 		[46] Google Dorking
-		[76] Payload All The Things
-		[77] Learn About Bad Usb
-		[78] Visit My Work On Github\033[92m
+		\033[91m[50] Hacker's Roadmap [UPCOMING]\033[91m
+		\033[95m[70] Visit My Website
+		[71] Read My Articles
+		[72] Purchase My Books
+		[73] Enroll My Courses
+		[74] Buy My Merchandises
+		[75] Subscribe My Youtube
+		[76] Follow My Instagram
+		[77] Join My Telegram Channel
+		[78] Play Games Online\033[95m
 		\033[93m[79] Pacman [GUI]\033[93m
 		\033[92m[80] Hangman
 		[81] Snake Game\033[92m
@@ -133,21 +142,22 @@ try:
 		\033[92m[83] TIC-TAC-TOE [CLI]
 		[84] Rock Paper Scissor\033[92m
 		\033[93m[85] Tetris [GUI]\033[93m
-		\033[92m[86] Chess
-		[87] Dunkin Donut
-		[88] FSOCIETY LOGO\033[92m
-		\033[91m[89] Clang For Ethical Hackers [UPCOMING]
-		[90] Offensive Golang [UPCOMING]
-		[91] Offensive Perl [UPCOMING]\033[91m
-		\033[92m[92] Python For Ethical Hacking
+		\033[92m[86] Chess\033[92m
+		\033[93m[87] Dunkin Donut\033[93m
+		\033[92m[88] FSOCIETY Banner\033[92m
+		\033[94m[89] Golang For Ethical Hackers
+		[90] Perl For Ethical Hackers
+		[91] Ruby For Ethical Hackers
+		[92] Python For Ethical Hacking
 		[93] Bash For Ethical Hackers
-		[94] Hulk-Office
-		[95] About Me
+		[94] Hulk-Office\033[94m
+		\033[92m[95] About Me
 		[96] About This Tool
 		[97] Buy Me A Coffee [Support This Project]
 		[98] Update FSociety
 		[99] What Is Fsociety
-		[00] Exit Tool\033[92m
+		[00] Exit Tool
+		[000] Help\033[92m
 		''')
 		select = input("\033[95m [?] Choose Any Option : ")		
 		if select == '1':
@@ -260,6 +270,10 @@ try:
 			os.system("clear")
 			os.system("python tools/xss-vulnerability-finder.py")
 			os.system("clear")
+		if select=='31':
+			os.system("clear")
+			os.system("python tools/sqli-scanner.py")
+			os.system("clear")
 		if select == '32':
 			os.system("clear")
 			os.system("python tools/shodan-api.py")
@@ -322,19 +336,56 @@ try:
 			os.system("clear")
 			os.system("python tools/google-dorking.py")
 			os.system("clear")
+		if select=='50':
+			os.system("clear")
+			slowprint(" R3DHULK is doing hard to make this...")
+			time.sleep(2.3)
+			slowprint(" Thanks for your patience ^-^")
+			time.sleep(2.3)
+			os.system("clear")
+		if select=='70':
+			os.system("clear") 
+			url= 'https://r3dhulk.github.io/'   
+			webbrowser.open_new_tab(url)
+			os.system("clear")
+		if select=='71':
+			os.system("clear") 
+			url= 'https://r3dhulk.github.io/Articles/'   
+			webbrowser.open_new_tab(url)
+			os.system("clear")
+		if select=='72':
+			os.system("clear") 
+			url= 'https://r3dhulk.github.io/Books/'   
+			webbrowser.open_new_tab(url)
+			os.system("clear")
+		if select=='73':
+			os.system("clear") 
+			url= 'https://r3dhulk.github.io/Courses/'   
+			webbrowser.open_new_tab(url)
+			os.system("clear")
+		if select=='74':
+			os.system("clear") 
+			url= 'https://r3dhulk.github.io/Merchandise/'   
+			webbrowser.open_new_tab(url)
+			os.system("clear")
+		if select=='75':
+			os.system("clear") 
+			url= 'https://www.youtube.com/@sumalya/'   
+			webbrowser.open_new_tab(url)
+			os.system("clear")
 		if select=='76':
 			os.system("clear") 
-			url= 'https://github.com/R3DHULK/PayloadsAllTheThings'   
+			url= 'https://instagram.com/r3dh_ulk/'   
 			webbrowser.open_new_tab(url)
 			os.system("clear")
 		if select=='77':
 			os.system("clear") 
-			url= 'https://github.com/R3DHULK/bad-usb'   
+			url= 'https://telegram.me/r3dhulk/'   
 			webbrowser.open_new_tab(url)
 			os.system("clear")	
 		if select=='78':
 			os.system("clear")
-			url='https://github.com/R3DHULK'
+			url='https://r3dhulk.github.io/GameZone/'
 			webbrowser.open_new_tab(url)
 			os.system("clear")
 		if select=='79':
@@ -380,19 +431,19 @@ try:
 			os.system("clear")
 		if select=='89':
 			os.system("clear")
-			slowprint("\033[91m [*]	This Repo Will Come Soon")
-			print("-------------------------------")
-			time.sleep(2.3)
+			url= 'https://github.com/R3DHULK/golang-for-ethical-hackers'   
+			webbrowser.open_new_tab(url) 
+			os.system("clear")
 		if select=='90':
 			os.system("clear")
-			slowprint("\033[91m [*]	This Repo Will Come Soon")
-			print("-------------------------------")
-			time.sleep(2.3)	
+			url= 'https://github.com/R3DHULK/perl-for-ethical-hackers'   
+			webbrowser.open_new_tab(url) 
+			os.system("clear")	
 		if select=='91':
 			os.system("clear")
-			slowprint("\033[91m [*]	This Repo Will Come Soon")
-			print("-------------------------------")
-			time.sleep(2.3)		
+			url= 'https://github.com/R3DHULK/ruby-for-ethical-hackers'   
+			webbrowser.open_new_tab(url) 
+			os.system("clear")		
 		if select =='92':
 			os.system("clear") 
 			url= 'https://github.com/R3DHULK/python-for-ethical-hacking'   
@@ -472,6 +523,23 @@ try:
 			slowprint("\033[97m [*] Thank You, Visit Again...")
 			time.sleep(1)
 			sys.exit()
+		if select=='000':
+			os.system("clear")
+			slowprint("\033[92m [*] 1-46 Is My Tools")
+			time.sleep(0.5)
+			slowprint(" [*] 70-77 Is Self-Promotion")
+			time.sleep(0.5)
+			slowprint(" [*] Yellow Marked Options Are For Desktop Users Because They Are Designed In GUI")
+			time.sleep(1)
+			slowprint(" [*] Blue Marked Options Are My Best Projects")
+			time.sleep(0.5)
+			slowprint(" [*] 78-87 Is Games Which Were Made By Me")
+			time.sleep(0.5)
+			slowprint(" [*] If You Liked This ToolKit Then Support This Project. I'm Badly Needy For Your Support Guyz To Survive.")
+			time.sleep(0.5)
+			input("\n [*] Enter To Go Back")
+			time.sleep(1)
+			os.system("clear")
 		else:
 			os.system("clear")
 except KeyboardInterrupt:
